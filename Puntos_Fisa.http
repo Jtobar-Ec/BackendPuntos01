@@ -1,0 +1,6 @@
+@Puntos_Fisa_HostAddress = http://localhost:5275
+
+GET {{Puntos_Fisa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

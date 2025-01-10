@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Puntos_Fisa.props" />
+</Project>
