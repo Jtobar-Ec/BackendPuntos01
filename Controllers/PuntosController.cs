@@ -16,7 +16,7 @@ namespace PuntosRecompensasAPI.Controllers
         }
 
         // GET: api/Puntos
-        [HttpGet]
+        [HttpGet("getPuntosUsuario")]
         public async Task<ActionResult<IEnumerable<object>>> GetPuntos()
         {
             // Devuelve todos los usuarios con sus puntos
@@ -28,7 +28,7 @@ namespace PuntosRecompensasAPI.Controllers
         }
 
         // GET: api/Puntos/5
-        [HttpGet("{id}")]
+        [HttpGet("getPuntosUsuarioById/{id}")]
         public async Task<ActionResult<object>> GetPuntos(int id)
         {
             var user = await _context.TfaUsers
@@ -45,7 +45,7 @@ namespace PuntosRecompensasAPI.Controllers
         }
 
         // PUT: api/Puntos/5
-        [HttpPut("{id}")]
+        [HttpPut("updatePuntosUsuario/{id}")]
         public async Task<IActionResult> UpdatePuntos(int id, int puntos)
         {
             if (puntos < 0)
@@ -81,7 +81,7 @@ namespace PuntosRecompensasAPI.Controllers
         }
 
         // POST: api/Puntos
-        [HttpPost]
+        [HttpPost("addPuntosUsuario")]
         public async Task<ActionResult<object>> PostPuntos(int id, int puntos)
         {
             if (puntos < 0)

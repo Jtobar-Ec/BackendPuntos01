@@ -5158,23 +5158,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tobar\\.nuget\\packages\\": {},
+    "C:\\Users\\MEGABLODFIX\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tobar\\source\\repos\\Puntos_Fisa\\Puntos_Fisa\\PuntosRecompensasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\BackendPuntos01\\PuntosRecompensasAPI.csproj",
       "projectName": "PuntosRecompensasAPI",
-      "projectPath": "C:\\Users\\tobar\\source\\repos\\Puntos_Fisa\\Puntos_Fisa\\PuntosRecompensasAPI.csproj",
-      "packagesPath": "C:\\Users\\tobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tobar\\source\\repos\\Puntos_Fisa\\Puntos_Fisa\\obj\\",
+      "projectPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\BackendPuntos01\\PuntosRecompensasAPI.csproj",
+      "packagesPath": "C:\\Users\\MEGABLODFIX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\BackendPuntos01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MEGABLODFIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5183,6 +5183,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

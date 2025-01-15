@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Puntos": {
+    "/api/Puntos/getPuntosUsuario": {
       "get": {
         "tags": [
           "Puntos"
@@ -35,15 +35,41 @@
             }
           }
         }
-      },
-      "post": {
+      }
+    },
+    "/api/Puntos/getPuntosUsuarioById/{id}": {
+      "get": {
         "tags": [
           "Puntos"
         ],
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Puntos/updatePuntosUsuario/{id}": {
+      "put": {
+        "tags": [
+          "Puntos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -65,37 +91,15 @@
         }
       }
     },
-    "/api/Puntos/{id}": {
-      "get": {
+    "/api/Puntos/addPuntosUsuario": {
+      "post": {
         "tags": [
           "Puntos"
         ],
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Puntos"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"

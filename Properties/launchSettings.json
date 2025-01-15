@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:6001", // Puerto HTTP de PuntosRecompensasAPI
+      "applicationUrl": "http://localhost:7002", // Puerto HTTP de PuntosRecompensasAPI
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -24,7 +24,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7214", // Puerto HTTPS de PuntosRecompensasAPI
+      "applicationUrl": "https://localhost:7003", // Puerto HTTPS de PuntosRecompensasAPI
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

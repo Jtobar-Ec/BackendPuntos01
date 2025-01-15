@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PuntosRecompensasAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eb3f1f77778344de4426dea1489734698877120")]
 [assembly: System.Reflection.AssemblyProductAttribute("PuntosRecompensasAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PuntosRecompensasAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

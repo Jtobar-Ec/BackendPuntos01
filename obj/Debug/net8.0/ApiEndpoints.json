@@ -1,28 +1,8 @@
 [
   {
     "ContainingType": "PuntosRecompensasAPI.Controllers.PuntosController",
-    "Method": "GetPuntos",
-    "RelativePath": "api/Puntos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PuntosRecompensasAPI.Controllers.PuntosController",
     "Method": "PostPuntos",
-    "RelativePath": "api/Puntos",
+    "RelativePath": "api/Puntos/addPuntosUsuario",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -43,7 +23,27 @@
   {
     "ContainingType": "PuntosRecompensasAPI.Controllers.PuntosController",
     "Method": "GetPuntos",
-    "RelativePath": "api/Puntos/{id}",
+    "RelativePath": "api/Puntos/getPuntosUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PuntosRecompensasAPI.Controllers.PuntosController",
+    "Method": "GetPuntos",
+    "RelativePath": "api/Puntos/getPuntosUsuarioById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -59,7 +59,7 @@
   {
     "ContainingType": "PuntosRecompensasAPI.Controllers.PuntosController",
     "Method": "UpdatePuntos",
-    "RelativePath": "api/Puntos/{id}",
+    "RelativePath": "api/Puntos/updatePuntosUsuario/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

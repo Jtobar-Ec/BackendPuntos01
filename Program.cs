@@ -26,21 +26,18 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configurar la tubería de solicitudes HTTP.
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Puntos Recompensas API v1");
         options.RoutePrefix = string.Empty; // Esto asegura que Swagger UI esté en la raíz de la URL
     });
-}
+
 
 // Usar CORS
 app.UseCors("AllowAll");
-
 app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();
 
